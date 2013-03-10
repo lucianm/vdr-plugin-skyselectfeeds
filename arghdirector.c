@@ -15,7 +15,7 @@
 #include "menudirector.h"
 #include "osdproxy.h"
 
-static const char *VERSION        = "0.2.8";
+static const char *VERSION        = "0.2.8_pre1";
 static const char *DESCRIPTION    = "skin-aware plugin to use the Sky multifeed option";
 static const char *MAINMENUENTRY  = "arghDirector";
 
