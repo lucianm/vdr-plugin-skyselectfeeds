@@ -12,11 +12,10 @@
 #include <vdr/remote.h>
 #include <vdr/tools.h>
 
-#include "arghdirectori18n.h"
 #include "menudirector.h"
 #include "osdproxy.h"
 
-static const char *VERSION        = "0.2.7";
+static const char *VERSION        = "0.2.8";
 static const char *DESCRIPTION    = "skin-aware plugin to use the premiere multifeed option";
 static const char *MAINMENUENTRY  = "arghDirector";
 
@@ -176,7 +175,6 @@ bool cPluginDirector::ProcessArgs(int argc, char *argv[])
 bool cPluginDirector::Start(void)
 {
   // Start any background activities the plugin shall perform.
-  RegisterI18n(Phrases);
 
   //if(autoStart == 1)
   directorStatus = new cDirectorStatus(this);

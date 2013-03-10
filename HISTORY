@@ -1,6 +1,10 @@
 VDR Plugin 'arghDirector' Revision History
 ----------------------------------------
 
+2013: Version 0.2.8
+- dropped old i18n support, thereforre no longer supports vdr < 1.7.27
+- switched Makefile to vdr >= 1.7.34 style
+
 2008-02-XX: Version 0.2.7
 - fixed memleak, removed compiler-waring (thx to horchi)
 - enabled hotkeys in skinmenu (thx to horchi) 
