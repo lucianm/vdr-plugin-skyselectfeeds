@@ -1,0 +1,24 @@
+VDR Plugin 'arghDirector' Revision History
+----------------------------------------
+
+2008-02-XX: Version 0.2.7
+- fixed memleak, removed compiler-waring (thx to horchi)
+- enabled hotkeys in skinmenu (thx to horchi) 
+- dropped compat to VDR 1.3.x
+- removed old-director display-mode
+- corrected Makefile to use APIVERSION correctly
+- updated no of languages in arghdirectori18n.*
+- autostart can now be configured during runtime (and works ;) )
+- added new setup-option to autostart plugin on referenced channel
+- made autostart on channel-switch in cDirectorStatus::ChannelSwitch a bit more robust ;)
+- added option to avoid start on simple single channels
+- added option to ask before autostarting the plugn
+
+TODO
+--
+* add latest feature-patches from horchi
+* make mainmenu-entry editable in setup
+* add thread to check link(ed) channel(s) and epg-info for dynamic-updates
+* add finally dbox1-view ;)
+* add missing README/...-whatever texts
+* judge user-ideas :D
