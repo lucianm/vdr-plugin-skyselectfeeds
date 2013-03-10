@@ -1,8 +1,8 @@
 VDR Plugin 'arghDirector' Revision History
 ----------------------------------------
 
-2013: Version 0.2.8
-- dropped old i18n support, thereforre no longer supports vdr < 1.7.27
+2013-03-XX: Version 0.2.8
+- dropped old i18n support, therefore no longer supports vdr < 1.7.27
 - switched Makefile to vdr >= 1.7.34 style
 
 2008-02-XX: Version 0.2.7
