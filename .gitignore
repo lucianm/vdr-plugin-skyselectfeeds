@@ -1,0 +1,24 @@
+# backup files
+*.bak
+
+# diff files
+*.diff
+*.patch
+
+# other build leftovers
+.dependencies
+.#*
+*~
+*.o
+*.a
+*.so
+po/*.mo
+po/*.pot
+.libs
+
+# archive files
+*.tgz
+*.tar.gz
+*.tar.bz2
+*.zip
+*.tar.*
