@@ -16,7 +16,7 @@
 #include "osdproxy.h"
 
 static const char *VERSION        = "0.2.8";
-static const char *DESCRIPTION    = "skin-aware plugin to use the premiere multifeed option";
+static const char *DESCRIPTION    = "skin-aware plugin to use the Sky multifeed option";
 static const char *MAINMENUENTRY  = "arghDirector";
 
 const char* allowedButtonNames[] = {
