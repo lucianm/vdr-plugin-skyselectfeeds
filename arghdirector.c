@@ -78,7 +78,7 @@ class cDirectorStatus : public cStatus
 private:
   cPlugin* parent;
 protected:
-  virtual void ChannelSwitch(const cDevice *Device, int ChannelNumber);
+  virtual void ChannelSwitch(const cDevice *Device, int ChannelNumber, bool LiveView);
 public:
   cDirectorStatus(cPlugin* plugin);
 };
@@ -110,10 +110,13 @@ cDirectorStatus::cDirectorStatus(cPlugin* plugin)
   parent = plugin;
 }
 	
-void cDirectorStatus::ChannelSwitch(const cDevice *Device, int ChannelNumber)
+void cDirectorStatus::ChannelSwitch(const cDevice *Device, int ChannelNumber, bool LiveView)
 {
   // pre-channel-switch - we are not interested
   if (ChannelNumber == 0)
+    return;
+  // channel switch not ffor live view
+  if (!LiveView)
     return;
   // channelno not no of primdevice - puuh no thx
   if (cDevice::CurrentChannel() != ChannelNumber)
@@ -121,7 +124,7 @@ void cDirectorStatus::ChannelSwitch(const cDevice *Device, int ChannelNumber)
   // all autostarts turned off - go away dude!
   if ((!autoStart) && (!autoStartRef))
     return;
- 
+
   const cChannel* Channel = Channels.GetByNumber(ChannelNumber);//Device->CurrentChannel());
   if (!Channel)
     return;
