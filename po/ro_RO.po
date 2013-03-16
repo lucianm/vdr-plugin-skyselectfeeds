@@ -1,24 +1,33 @@
 # VDR plugin language source file.
 # Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
 # This file is distributed under the same license as the VDR package.
-# Paul Lacatus <paul@campina.iiruc.ro>, 2002
-# Lucian Muresan <lucianm@users.sourceforge.net>, 2004
+# Klaus Schmidinger <kls@cadsoft.de>, 2000
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: VDR 1.5.7\n"
+"Project-Id-Version: VDR 1.7.40\n"
 "Report-Msgid-Bugs-To: <see README>\n"
-"POT-Creation-Date: 2013-03-10 01:51+0100\n"
-"PO-Revision-Date: 2008-03-28 23:11+0100\n"
-"Last-Translator: Lucian Muresan <lucianm@users.sourceforge.net>\n"
+"POT-Creation-Date: 2013-03-16 10:04+0100\n"
+"PO-Revision-Date: 2013-03-16 10:03+0100\n"
+"Last-Translator: Lucian Muresan <lucianm@users.sorceforge.net>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: Romanian\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "Link(ed) channel - start SkySelect Feeds?"
+msgstr "Canal asociat - pornesc 'SkySelect Feeds'?"
+
+msgid "Not a link(ed) channel!"
+msgstr "Canalul nu este asociat!"
+
+msgid "No EPG information available"
+msgstr "Nu există EPG disponibil"
 
 msgid "Hide main menu entry"
-msgstr ""
+msgstr "Ascunde în meniul principal"
 
 msgid "no"
 msgstr ""
@@ -27,49 +36,43 @@ msgid "yes"
 msgstr ""
 
 msgid "Swap up and down"
-msgstr ""
+msgstr "Inversează tastele sus / jos"
 
 msgid "Swap up and down in menu"
-msgstr ""
+msgstr "Inversează tastele sus / jos în meniu"
 
 msgid "Portal Mode"
-msgstr ""
+msgstr "Mod 'Portal'"
 
 msgid "Display info on channel change"
-msgstr ""
+msgstr "Afișează informații despre canal la comutare"
 
 msgid "Switch channel on linkchannel selection"
-msgstr ""
+msgstr "Comută canalul la selectarea unui canal asociat"
 
 msgid "Hide plugin after channel switch"
-msgstr ""
+msgstr "Ascunde Plugin-ul după comutarea canalului"
 
 msgid "Display channel shortcut numbers"
-msgstr ""
+msgstr "Afișeaza numerotarea canalelor"
 
 msgid "Display EPG information"
-msgstr ""
+msgstr "Afișează informații EPG"
 
 msgid "Show plugin again on button"
-msgstr ""
+msgstr "Afișează din nou plugin-ul la tasta"
 
-msgid "Autostart plugin on reference-channels"
-msgstr ""
+msgid "Autostart plugin"
+msgstr "Auto-startează plugin-ul"
 
 msgid "Autostart plugin on referenced channels"
-msgstr ""
+msgstr "Auto-startează plugin-ul la canale asociate"
 
 msgid "Ask before autostart plugin"
-msgstr ""
+msgstr "Cere confirmare pentru auto-startarea plugin-ului"
 
 msgid "Avoid start on nonlink channels"
-msgstr ""
+msgstr "Evită auto-startarea plugin-ului la canale neasociate"
 
-msgid "Link(ed) channel - start arghDirector?"
-msgstr ""
-
-msgid "Not a link(ed) channel!"
-msgstr ""
-
-msgid "No EPG information available"
-msgstr ""
+#~ msgid "Autostart plugin on reference-channels"
+#~ msgstr "Autostart des Plugins auf Referenzkanälen"

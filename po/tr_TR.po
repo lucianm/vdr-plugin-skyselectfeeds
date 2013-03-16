@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDR 1.5.7\n"
 "Report-Msgid-Bugs-To: <see README>\n"
-"POT-Creation-Date: 2013-03-10 01:51+0100\n"
+"POT-Creation-Date: 2013-03-16 09:40+0100\n"
 "PO-Revision-Date: 2008-03-28 23:11+0100\n"
 "Last-Translator: Oktay Yolgeçen <oktay_73@yahoo.de>\n"
 "Language-Team: \n"
@@ -15,6 +15,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-9\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Link(ed) channel - start SkySelect Feeds?"
+msgstr ""
+
+msgid "Not a link(ed) channel!"
+msgstr ""
+
+msgid "No EPG information available"
+msgstr ""
 
 msgid "Hide main menu entry"
 msgstr ""
@@ -52,7 +61,7 @@ msgstr ""
 msgid "Show plugin again on button"
 msgstr ""
 
-msgid "Autostart plugin on reference-channels"
+msgid "Autostart plugin"
 msgstr ""
 
 msgid "Autostart plugin on referenced channels"
@@ -62,13 +71,4 @@ msgid "Ask before autostart plugin"
 msgstr ""
 
 msgid "Avoid start on nonlink channels"
-msgstr ""
-
-msgid "Link(ed) channel - start arghDirector?"
-msgstr ""
-
-msgid "Not a link(ed) channel!"
-msgstr ""
-
-msgid "No EPG information available"
 msgstr ""

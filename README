@@ -1,14 +1,18 @@
 This is a "plugin" for the Video Disk Recorder (VDR).
 
 Written by:                  Reiner Rosin - derived from director-plugin by Emanuel Wontorra
+Forked ('cause abandoned)    by Lucian Muresan
 
-Project's homepage (outdated):          http://www.arghgra.de/arghdirector.html
+Project's homepage:          http://skyselectfeeds.sourceforge.net/
+Project's sources:           https://github.com/lucianm/vdr-plugin-skyselectfeeds
+Project's releases:          http://sourceforge.net/projects/skyselectfeeds/files
 
 See the file COPYING for license information.
 
 Description:
 -----------
-arghDirector is a skin-aware plugin to use the multifeed option of some Premiere channels (Direkt,Sport).
+arghDirector is a skin-aware plugin to use the multifeed option of some Sky Germany (former Premiere) channels
+bundled in the VOD-like service currently known as "Sky Select".
 
 Requirements:
 -------------
@@ -21,3 +25,4 @@ TODO
 Setup Option:
 -------------
 TODO
+

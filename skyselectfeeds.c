@@ -275,7 +275,7 @@ cMenuSetupDirector::cMenuSetupDirector()
   Add(new cMenuEditBoolItem(tr("Display channel shortcut numbers"), &displayShortcutNumbers, tr("no"), tr("yes")));
   Add(new cMenuEditBoolItem(tr("Display EPG information"), &displayEpgInfo, tr("no"), tr("yes")));
   Add(new cMenuEditStraItem(tr("Show plugin again on button"), &showPluginButton, NOOFALLOWEDBUTTONS, allowedButtonNames));
-  Add(new cMenuEditBoolItem(tr("Autostart plugin on reference-channels"), &autoStart, tr("no"), tr("yes")));
+  Add(new cMenuEditBoolItem(tr("Autostart plugin"), &autoStart, tr("no"), tr("yes")));
   Add(new cMenuEditBoolItem(tr("Autostart plugin on referenced channels"), &autoStartRef, tr("no"), tr("yes")));
   Add(new cMenuEditBoolItem(tr("Ask before autostart plugin"), &autoStartAsk, tr("no"), tr("yes")));
   Add(new cMenuEditBoolItem(tr("Avoid start on nonlink channels"), &avoidStartOnNoLinkChannels, tr("no"), tr("yes")));

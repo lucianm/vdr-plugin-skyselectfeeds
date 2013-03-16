@@ -67,7 +67,7 @@ cOsdMenu* cMenuDirector::Create(const char* title,cOsdProxyData* data)
 {
   if ((((cMenuDirectorData*)data)->mCalledByChannelSwitch) && (((cMenuDirectorData*)data)->mAskOnStart))
   {
-    eKeys wPressed = Skins.Message(mtInfo, tr("Link(ed) channel - start arghDirector?"), 5);
+    eKeys wPressed = Skins.Message(mtInfo, tr("Link(ed) channel - start SkySelect Feeds?"), 5);
     if (wPressed != kOk)
       return NULL;
   }

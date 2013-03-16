@@ -5,16 +5,26 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: VDR 1.5.7\n"
+"Project-Id-Version: VDR 1.7.40\n"
 "Report-Msgid-Bugs-To: <see README>\n"
-"POT-Creation-Date: 2013-03-10 01:51+0100\n"
-"PO-Revision-Date: 2008-03-28 23:11+0100\n"
-"Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
+"POT-Creation-Date: 2013-03-16 10:04+0100\n"
+"PO-Revision-Date: 2013-03-16 09:50+0100\n"
+"Last-Translator: Lucian Muresan <lucianm@users.sorceforge.net>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: German\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "Link(ed) channel - start SkySelect Feeds?"
+msgstr "Verlinkter Kanal - SkySelect Feeds starten?"
+
+msgid "Not a link(ed) channel!"
+msgstr "Kein verlinkter Kanal!"
+
+msgid "No EPG information available"
+msgstr "Keine EPG Information verfügbar"
 
 msgid "Hide main menu entry"
 msgstr "Hauptmenüeintrag verstecken"
@@ -38,7 +48,7 @@ msgid "Display info on channel change"
 msgstr "Kanalinfo beim umschalten anzeigen"
 
 msgid "Switch channel on linkchannel selection"
-msgstr "Kanal umschalten bei Linkkanal-Auswahl"
+msgstr "Kanal umschalten bei Auswahl von verlinkten Kanälen"
 
 msgid "Hide plugin after channel switch"
 msgstr "Plugin nach Kanal schalten verstecken"
@@ -52,23 +62,17 @@ msgstr "EPG Informationen anzeigen"
 msgid "Show plugin again on button"
 msgstr "Plugin erneut anzeigen bei Taste"
 
-msgid "Autostart plugin on reference-channels"
-msgstr "Autostart des Plugins auf Referenzkanälen"
+msgid "Autostart plugin"
+msgstr "Plugin-Autostart"
 
 msgid "Autostart plugin on referenced channels"
-msgstr ""
+msgstr "Plugin-Autostart bei verlinkten Kanälen"
 
 msgid "Ask before autostart plugin"
-msgstr ""
+msgstr "Plugin-Autostart bestätigen lassen"
 
 msgid "Avoid start on nonlink channels"
-msgstr ""
+msgstr "Bei nicht verlinkten Kanälen Start unterbinden"
 
-msgid "Link(ed) channel - start arghDirector?"
-msgstr ""
-
-msgid "Not a link(ed) channel!"
-msgstr ""
-
-msgid "No EPG information available"
-msgstr "Keine EPG Information verfügbar"
+#~ msgid "Autostart plugin on reference-channels"
+#~ msgstr "Autostart des Plugins auf Referenzkanälen"
