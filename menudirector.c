@@ -119,7 +119,7 @@ void cMenuDirector::ChannelSwitchNonOsd(int direction)
       ChannelSwitchNonOsd(linkChannels->First()->Channel());
       return;
     }
-    
+
     cChannel* prevChannel = mReferenceChannel;
     for (cLinkChannel* linkChannel = linkChannels->First(); linkChannel != NULL; linkChannel = linkChannels->Next(linkChannel))
     {
@@ -165,7 +165,7 @@ eOSState cMenuDirector::ProcessKey(eKeys Key)
     Key = kDown;
   else if ((mData->mSwapKeysInMenu == 1) && (Key == kDown))
     Key = kUp;
-  
+
   /*eOSState state = */cOsdMenu::ProcessKey(Key);
 
   if ((Key == kBack) || ((Key == mData->mHideButton) && (mData->mHideButton != kOk)))
@@ -205,10 +205,10 @@ void cMenuDirector::DetermineReferenceChannel()
   if (!mReferenceChannel)
   {
     cChannel* referenceChannel = currentChannel;
-	
+
     if(!GetLinkChannelsOutOfChannel(referenceChannel))
       referenceChannel = GetRefChannelOutOfChannel(referenceChannel);
-	
+
     mReferenceChannel = referenceChannel;
   }
 
@@ -218,7 +218,7 @@ void cMenuDirector::DetermineReferenceChannel()
 void cMenuDirector::AddChannelItem(cChannel* channel)
 {
   if (mData->mDisplayShortcutNumbers == 1)
-  {    
+  {
     /*char* buffer;
     int channelNo = cList<cOsdItem>::Count()+1;
     if (mData->mDisplayEpgInfo == 1)
@@ -250,7 +250,7 @@ void cMenuDirector::AddChannelItem(cChannel* channel)
     const cSchedules* schedules = cSchedules::Schedules(schedulesLock);
     const cSchedule* schedule = schedules->GetSchedule(channel->GetChannelID());
     if(schedule)
-    { 
+    {
      const cEvent* event = schedule->GetPresentEvent();
      if (event)
        title = event->Title();

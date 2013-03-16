@@ -85,7 +85,7 @@ public:
 
 class cPluginDirector : public cPlugin
 {
-private:	
+private:
   // Add any member variables or functions you may need here.
   cDirectorStatus *directorStatus;  
 
@@ -109,7 +109,7 @@ cDirectorStatus::cDirectorStatus(cPlugin* plugin)
 {
   parent = plugin;
 }
-	
+
 void cDirectorStatus::ChannelSwitch(const cDevice *Device, int ChannelNumber, bool LiveView)
 {
   // pre-channel-switch - we are not interested
@@ -211,7 +211,7 @@ cOsdObject *cPluginDirector::MainMenuAction(void)
   // directly reset
   calledByChannelSwitch = 0;
 
-  return new cOsdProxy(cMenuDirector::Create,cMenuDirector::KeyHandlerFunction,cMenuDirector::Release,"Director",config, allowedButtons[showPluginButton],true);
+  return new cOsdProxy(cMenuDirector::Create,cMenuDirector::KeyHandlerFunction,cMenuDirector::Release,MAINMENUENTRY,config, allowedButtons[showPluginButton],true);
 }
 
 bool cPluginDirector::SetupParse(const char *Name, const char *Value)
