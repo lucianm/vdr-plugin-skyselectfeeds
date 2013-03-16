@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDR 1.7.40\n"
 "Report-Msgid-Bugs-To: <see README>\n"
-"POT-Creation-Date: 2013-03-16 10:04+0100\n"
-"PO-Revision-Date: 2013-03-16 10:03+0100\n"
+"POT-Creation-Date: 2013-03-16 11:00+0100\n"
+"PO-Revision-Date: 2013-03-16 11:24+0100\n"
 "Last-Translator: Lucian Muresan <lucianm@users.sorceforge.net>\n"
 "Language-Team: \n"
 "Language: Romanian\n"
@@ -26,14 +26,20 @@ msgstr "Canalul nu este asociat!"
 msgid "No EPG information available"
 msgstr "Nu există EPG disponibil"
 
+msgid "skin-aware plugin to use the Sky Select (Germany) linked feeds option"
+msgstr "Navigație OSD prin feed-uri asociate Sky Select (Germania)"
+
+msgid "SkySelect Feeds"
+msgstr ""
+
 msgid "Hide main menu entry"
 msgstr "Ascunde în meniul principal"
 
 msgid "no"
-msgstr ""
+msgstr "nu"
 
 msgid "yes"
-msgstr ""
+msgstr "da"
 
 msgid "Swap up and down"
 msgstr "Inversează tastele sus / jos"

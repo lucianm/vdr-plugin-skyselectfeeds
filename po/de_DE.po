@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDR 1.7.40\n"
 "Report-Msgid-Bugs-To: <see README>\n"
-"POT-Creation-Date: 2013-03-16 10:04+0100\n"
-"PO-Revision-Date: 2013-03-16 09:50+0100\n"
+"POT-Creation-Date: 2013-03-16 11:00+0100\n"
+"PO-Revision-Date: 2013-03-16 11:41+0100\n"
 "Last-Translator: Lucian Muresan <lucianm@users.sorceforge.net>\n"
 "Language-Team: \n"
 "Language: German\n"
@@ -26,14 +26,20 @@ msgstr "Kein verlinkter Kanal!"
 msgid "No EPG information available"
 msgstr "Keine EPG Information verfügbar"
 
+msgid "skin-aware plugin to use the Sky Select (Germany) linked feeds option"
+msgstr "OSD-Navigation durch Sky Select Feeds (Deutschland)"
+
+msgid "SkySelect Feeds"
+msgstr "Sky Select"
+
 msgid "Hide main menu entry"
 msgstr "Hauptmenüeintrag verstecken"
 
 msgid "no"
-msgstr ""
+msgstr "nein"
 
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 msgid "Swap up and down"
 msgstr "Tasten auf und ab vertauschen"

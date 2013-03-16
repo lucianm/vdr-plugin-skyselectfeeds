@@ -16,8 +16,8 @@
 #include "osdproxy.h"
 
 static const char *VERSION        = "0.2.8_pre20130316";
-static const char *DESCRIPTION    = "skin-aware plugin to use the Sky multifeed option";
-static const char *MAINMENUENTRY  = "SkySelect Feeds";
+#define DESCRIPTION              tr("skin-aware plugin to use the Sky Select (Germany) linked feeds option")
+#define MAINMENUENTRY            tr("SkySelect Feeds")
 
 const char* allowedButtonNames[] = {
   "Ok",
@@ -98,7 +98,7 @@ public:
   virtual bool ProcessArgs(int argc, char *argv[]);
   virtual bool Start(void);
   virtual void Housekeeping(void);
-  virtual const char *MainMenuEntry(void) { return (hide ? NULL : tr(MAINMENUENTRY)); }
+  virtual const char *MainMenuEntry(void) { return (hide ? NULL : MAINMENUENTRY); }
   virtual cOsdObject *MainMenuAction(void);
   virtual cMenuSetupPage *SetupMenu(void);
   virtual bool SetupParse(const char *Name, const char *Value);

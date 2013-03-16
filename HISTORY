@@ -4,7 +4,8 @@ VDR Plugin 'SkySelectFeeds' Revision History
 2013-03-XX: Version 0.2.8
 - forked from 'arghDirector' which seems to be no longer maintained;
 - sources are hosted at Github, see README file;
-- homepage for now is set to SF, see README file;
+- bugtracker is hosted at Github, see README file;
+- homepage for now is the international english and the german wiki, see README file;
 - downloads available at SF;
 - dropped old i18n support, therefore no longer supports vdr < 1.7.27;
 - switched Makefile to vdr >= 1.7.34 style;

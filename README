@@ -3,9 +3,11 @@ This is a "plugin" for the Video Disk Recorder (VDR).
 Written by:                  Reiner Rosin - derived from director-plugin by Emanuel Wontorra
 Forked ('cause abandoned)    by Lucian Muresan
 
-Project's homepage:          http://skyselectfeeds.sourceforge.net/
-Project's sources:           https://github.com/lucianm/vdr-plugin-skyselectfeeds
-Project's releases:          http://sourceforge.net/projects/skyselectfeeds/files
+Project homepage (en):       http://linuxtv.org/vdrwiki/index.php/SkySelectFeeds-plugin/
+Project homepage (de):       http://www.vdr-wiki.de/wiki/index.php/SkySelectFeeds-plugin
+Project repository:          https://github.com/lucianm/vdr-plugin-skyselectfeeds
+Project releases:            http://sourceforge.net/projects/skyselectfeeds/files
+Project bug tracker          https://github.com/lucianm/vdr-plugin-skyselectfeeds/issues
 
 See the file COPYING for license information.
 
@@ -25,4 +27,3 @@ TODO
 Setup Option:
 -------------
 TODO
-
