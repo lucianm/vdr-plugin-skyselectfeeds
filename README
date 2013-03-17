@@ -13,8 +13,8 @@ See the file COPYING for license information.
 
 Description:
 -----------
-arghDirector is a skin-aware plugin to use the multifeed option of some Sky Germany (former Premiere) channels
-bundled in the VOD-like service currently known as "Sky Select".
+SkySelectFeeds (former arghDirector) is a skin-aware plugin to use the multifeed option of some
+Sky Germany (former Premiere) channels bundled in the VOD-like service currently known as "Sky Select".
 
 Requirements:
 -------------
